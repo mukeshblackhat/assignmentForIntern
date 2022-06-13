@@ -24,14 +24,12 @@ const Card =()=> {
     },[])
   
     return (
-
+      <div className="mainContainer">
       <div className='mainCard'>
-       <table style={{margin:"auto", paddingTop:"30px" ,textAlign:"center"}}>
-         
-          <img src={data.avatar} style={{marginLeft:"70%"}} alt="sorry"/>
-          
-
-         <tr>
+        <div  className="avatar"><img src={data.avatar}  alt="sorry"/></div>
+        <div className="userInfo">
+        <table >
+       <tr>
            <td>
              <b>Name : </b>
            </td>
@@ -48,9 +46,12 @@ const Card =()=> {
            </th>
          </tr>
        </table>
+        </div>
+       
          {/* <div className="name"><b>Name :</b>{loading?<p>wait its loading...</p>:<p>{data.first_name}</p>}</div> */}
         
           
+      </div>
       </div>
     )
   

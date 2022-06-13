@@ -1,18 +1,32 @@
 .card{
     background-color: rgb(218, 84, 84);
     color:white;
-    padding:20px;
-    margin:20px;
+    /* padding:20px;
+    margin:20px; */
     
 
 }
 .mainCard{
+    width:30%;
     margin:auto;
     padding-bottom:10px;
-    width:20%;
-    height:30%;
     background-color: rgba(239, 239, 239, 0.703);
     border-color: rgba(177, 151, 151, 0.571);
     border-style:solid;
     display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+.mainContainer{
+    display:flex;
+    justify-content: center;
+    padding:2%;
+}
+.avatar{
+    padding:10%;
+    margin:2px;
+}
+.userInfo{
+    margin:2%;
 }

@@ -1,4 +1,22 @@
-.usersButtons{
+
+.avatar{
+  margin:auto !important;
+  height:60%;
+
+}
+.names{
+  padding:2%;
+  margin:2%;
+  text-align: center;
+  height:40%;
+}
+
+
+.mainButton{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  /* some old style  */
   border:2px;
   padding:15px;
   margin:5px;
@@ -6,8 +24,8 @@
   font-size: xx-large;
   color:white;
   
-  
 }
+
 
 .header{
   text-align: center;
